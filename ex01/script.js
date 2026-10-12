@@ -25,10 +25,10 @@ return "F";
 }
 }
 
-console.log(calculateGrade(90));
-console.log(calculateGrade(89));
-console.log(calculateGrade(0));
-console.log(calculateGrade(100));
+console.log("Result 90 and Grade",calculateGrade(90));
+console.log("Result 89 and Grade",calculateGrade(89));
+console.log("Result 0 and Grade",calculateGrade(0));
+console.log("Result 100 and Grade",calculateGrade(100));
 console.log(calculateGrade(-1));
 console.log(calculateGrade(101));
 console.log(calculateGrade("90"));
@@ -44,10 +44,10 @@ return false;
 }
 }
 
-console.log(checkAccess(23,true));
-console.log(checkAccess(17,true));
-console.log(checkAccess(20,false));
-console.log(checkAccess(18,true));
-console.log(checkAccess(16,false));
-console.log(checkAccess(18,false));
+console.log("Adult with ticket",checkAccess(23,true));
+console.log("Teenager with ticket",checkAccess(15,true));
+console.log("Adult without ticket",checkAccess(20,false));
+console.log("Adult with ticket",checkAccess(18,true));
+console.log("Teenager without ticket",checkAccess(16,false));
+console.log("Adult without ticket",checkAccess(18,false));
 
